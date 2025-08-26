@@ -1,6 +1,3 @@
-const input = document.getElementById("text")
-const button = document.getElementById("submit")
-const list = document.getElementById("list")
 const input = document.getElementById("text");
 const button = document.getElementById("submit");
 const list = document.getElementById("list");
@@ -62,7 +59,7 @@ button.addEventListener("click", function() {
             input.value = ""
     }
 
-        //peringatan kalau input kosong
-        else{
-            alert("MANA TASKNYA")
-        }})
+    //peringatan kalau input kosong
+    else{
+        alert("MANA TASKNYA")
+    }
