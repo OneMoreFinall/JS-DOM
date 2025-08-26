@@ -64,4 +64,54 @@ input[type="button"]:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+#list li:hover {
+    transform: translateY(-2px);
+}
+
+#list li span {
+    flex-grow: 1;
+    margin-right: 15px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+#list button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.edit {
+    background-color: #ffc107;
+    color: #333;
+    margin-right: 8px;
+}
+
+.edit:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.update-button {
+    background-color: #28a745 !important;
+}
+
+.update-button:hover {
+    background-color: #218838 !important;
 }
